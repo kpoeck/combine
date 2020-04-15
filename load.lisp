@@ -53,6 +53,7 @@
                "generic-number-puzzle"
                "gsat" "gsat2"
                "sendmoremoney" "sendmoremoney-2" "barrel" "barrel-riddle"
+               "15-ladies"
                #+cormanlisp "corman"
                )))
   (with-compilation-unit ()
@@ -88,6 +89,7 @@
   (test-barrel-gsat-swapping)
   (test-eight-queens)
   (test-eight-queens-gsat)
+  (test-15-ladies)
   )
 
 (defun test-einstein-multiple ()
@@ -115,7 +117,8 @@
       "Zebra (test-gsat-zebra) ~%"
       "Mickey Mouse (TEST-GSAT-MICKEY) ~%"
       "8-Queens (test-eight-queens) ~%"
-      "8-Queens Gsat test-eight-queens-gsat ~%"
+      "8-Queens Gsat test-eight-queens-gsat (test-eight-queens-gsat)~%"
+      "15 ladies (test-15-ladies)~%"
       "~%or test all with (test-all)~%"
       "~%in (in-package :cl-user)"))
 
