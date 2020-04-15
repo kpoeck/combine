@@ -1,0 +1,10 @@
+*.fasl
+*.fasp
+*.faso
+*.dwarf
+*.ll
+*.abcl
+*.cfsl
+*.fas
+*.lib
+*.sse2f
